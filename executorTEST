@@ -745,7 +745,7 @@ local script = G2L["16"];
 			0.5,
 			false)
 		wait(.5)
-		game:GetService("CoreGui").ExecutorTEST:Destroy()
+		game.Players.LocalPlayer.PlayerGui.ExecutorTEST:Destroy()
 	end)
 end;
 task.spawn(C_16);
